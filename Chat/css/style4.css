@@ -1,0 +1,57 @@
+.form-control:focus{
+    box-shadow: none !important;
+}
+.w-101{
+    width: 55px !important;
+    border-radius: 50%;
+}
+.w-400{
+    width: 400px;
+}
+.w-10{
+    width: 35px !important;
+    border-radius: 50%;
+}
+a{
+    text-decoration:none;
+}
+.online{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: green;
+}
+small{
+    font-size: 0.7 rem !important;
+    text-align: right;
+}
+.rtext{
+    width: 70% !important;
+    background-color: #f8f9fa;
+    color: #444;
+}
+.ltext{
+    width: 70% !important;
+    background-color: #0400ff;
+    color: #ffffff;
+}
+.chat-box{
+    overflow-y: auto;
+    max-height: 50vh;
+}
+*::-webkit-scrollbar{
+    width: 3px;
+}
+*::-webkit-scrollbar-track{
+    background: #f1f1f1;
+}
+*::-webkit-scrollbar-thumb{
+    background: #9e9797;
+    border-radius: 20px;
+}
+*::-webkit-scrollbar-thumb:hover{
+    background: #0044ff;
+}
+.tArea{
+    resize: none;
+}
